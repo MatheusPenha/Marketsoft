@@ -1,6 +1,10 @@
 @charset "UTF-8";
 body{
     background-color:white;
+    background-image: url(/Marketso/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg);
+    background-size: cover;
+    height: 92vh;
+    color:#020b0e;
 }
 
 *{
@@ -57,10 +61,10 @@ background-color: black;
     background-color: transparent;
     border: transparent;
 }
-#box{
+.content-box{
     box-sizing: content-box;
-    background: #ddd;
-    width: 250px;
-    height: 50px;
-    padding: 0 50px;
+    background: rgba(221, 221, 221, 0.397);
+    width: 450px;
+    height: 460px;
+    padding: 0 100px;
 }
