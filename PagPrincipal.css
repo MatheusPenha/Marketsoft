@@ -68,7 +68,7 @@ background-color: black;
 
 :root {
   --orange: #f78b00;
-  --blue: #00285f;
+  --blue: #d63909;
   --gray: #ededed;
 }
 
@@ -539,5 +539,6 @@ footer .last {
   .footer-links {
     flex-direction: column;
     padding-left: 10%;
-  }
+ }
+
 }
