@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Pag.funci.css">
+
     
 </head>
 
@@ -14,11 +15,11 @@
     <nav id="menu">
         <ul>
             <li>
-                <h1 id="h">Marcketsoft</h1>
+                <h1 id="h">Marketsoft</h1>
             </li>
 
             <li>
-                <a href="">Home</a>
+                <a href="PagPrincipal.html">Home</a>
             </li>
             <li>
                 <a href="#">Sobre</a>
@@ -50,29 +51,42 @@
             
           </div>
           <div class="about-content">
-            <div class="left"> 
-              <img src="/Marketsoft-main/User_icon_BLACK-01.png" alt="sobrenós"
-              width="170px" height="160px" value="none">
-              <input type="file">Para mudar foto clique no botão acima
-            </div>
+           
             <div class="right">
-              <h3>Bem vindo Funcionario!</h3>
+              <h3>Bem vindo Funcionario!</h3> <br> <br>
               <p style="color: black;">
-                <legend>Nome
-                    <input type="text" value="" placeholder="Adalberto ">
-                </legend>
+                <div id="place">
+                    <select name="teste" onchange="javascript:mostraAlerta(this);">
+                        <option value="1">Opção 1</option>
+                        <option value="2">Opção 2</option>
+                    </select>
+                <div>
+                    <label>Carteira de trabalho:</label>
+                    <input type="text" placeholder=""/>
+                </div>
+                <DIV>
+                    <label >Endereço:</label>
+                    <input type="text" placeholder="Av. Nossa Senhora do Carmo, nº 874">
+                </DIV>
+                <DIV>
+                    <label >Nome:</label>
+                    <input type="text" placeholder="Ricardo Nobrega da Silva">
+                </DIV>
+                <div>
+                    <label>CPF:</label>
+                    <input type="text" placeholder="187.244.732-94">
+                </div>
+                <div>
+                    <label>Número Telefone:</label>
+                    <input type="text" placeholder="(81) 99275-3329">
+                </div>
                 <br>
-                <legend>Sobrenome
-                    <input type="text" value="" placeholder="Costa">
-                </legend>
-                <br>
-                <legend>Contato
-                    <input type="text" value="" placeholder="(81) 99428-3224">
-                </legend>
-                <br>
-                <button type="submit" value="Salvar" style="margin-right: 44px;">Salvar</button>
+               <br>
+               <br>
+                <button id="submit" type="submit" value="Salvar" style="height: 33px; width: 65px; border-radius: 18%;"> Salvar</button>
 
-
+            </div>
+            </div>
               </p>
             </div>
           </div>

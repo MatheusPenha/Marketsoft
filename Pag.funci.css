@@ -61,7 +61,7 @@ background-color: black;
   border: transparent;
 }
   .about-content{
-    max-width: 1000px;
+    max-width: 700px;
   min-width: 300px;
   height: 600px;
   background: #dedede3b;
@@ -73,19 +73,10 @@ background-color: black;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  }
-  .left {
-    width: 18%;
-    min-width: 30px;
-    height: 25%;
-    background: #000000a1;
-    border-radius: 150px;
-    
-  }
-  
+  }  
   .right {
-    width: 65%;
-    height: 100%;
+    width: 75%;
+    height: 120%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -98,4 +89,10 @@ background-color: black;
     clear: both;
     border-radius: 8px;
     box-shadow: none;
+    display: block;
+  width: 400px;
+  margin: 5px 0;
+  text-align: left;
+  
   }
+
